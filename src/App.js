@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <Route path="/" element={< Layout />} >
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
